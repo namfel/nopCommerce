@@ -697,6 +697,9 @@ set @resources='
   <LocaleResource Name="Account.Register.Result.EmailValidation">
     <Value>Your registration has been successfully completed. You have just been sent an email containing activation instructions.</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.System.Warnings.PluginNotEnabled">
+    <Value>Uninstall and delete the plugin(s) that you don''t use</Value>
+  </LocaleResource>
 </Language>
 '
 
