@@ -700,6 +700,12 @@ set @resources='
   <LocaleResource Name="Admin.System.Warnings.PluginNotEnabled">
     <Value>Uninstall and delete the plugin(s) that you don''t use</Value>
   </LocaleResource>
+  <LocaleResource Name="BackInStockSubscriptions.Notification.Subscribed">
+    <Value>You''ve successfully subscribed</Value>
+  </LocaleResource>
+  <LocaleResource Name="BackInStockSubscriptions.Notification.Unsubscribed">
+    <Value>You''ve successfully unsubscribed</Value>
+  </LocaleResource>
 </Language>
 '
 

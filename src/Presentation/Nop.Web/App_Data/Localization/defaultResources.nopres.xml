@@ -14701,10 +14701,10 @@
     <Value>Notify me when available</Value>
   </LocaleResource>
   <LocaleResource Name="BackInStockSubscriptions.Notification.Subscribed">
-    <Value>Subscribed</Value>
+    <Value>You've successfully subscribed</Value>
   </LocaleResource>
   <LocaleResource Name="BackInStockSubscriptions.Notification.Unsubscribed">
-    <Value>Unsubscribed</Value>
+    <Value>You've successfully unsubscribed</Value>
   </LocaleResource>
   <LocaleResource Name="BackInStockSubscriptions.OnlyRegistered">
     <Value>Only registered customers can use this feature</Value>
