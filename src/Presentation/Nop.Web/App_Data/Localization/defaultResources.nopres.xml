@@ -4239,43 +4239,37 @@
   <LocaleResource Name="Admin.Configuration.ActivityLog">
     <Value>Activity log</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog">
-    <Value>Activity log</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.ActivityLogType">
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.ActivityLogType">
     <Value>Activity log type</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.ActivityLogType.Hint">
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.ActivityLogType.Hint">
     <Value>The activity log type.</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.ActivityLogTypeColumn">
-    <Value>Activity log type</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.Comment">
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.Comment">
     <Value>Message</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOn">
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CreatedOn">
     <Value>Created On</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOnFrom">
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CreatedOnFrom">
     <Value>Created from</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOnFrom.Hint">
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CreatedOnFrom.Hint">
     <Value>The creation from date for the search.</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOnTo">
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CreatedOnTo">
     <Value>Created to</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOnTo.Hint">
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CreatedOnTo.Hint">
     <Value>The creation to date for the search.</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.Customer">
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.Customer">
     <Value>Customer</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CustomerEmail">
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CustomerEmail">
     <Value>Customer Email</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CustomerEmail.Hint">
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CustomerEmail.Hint">
     <Value>A customer Email.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLogType">

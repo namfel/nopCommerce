@@ -706,6 +706,78 @@ set @resources='
   <LocaleResource Name="BackInStockSubscriptions.Notification.Unsubscribed">
     <Value>You''ve successfully unsubscribed</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.ActivityLogType">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.ActivityLogType">
+    <Value>Activity log type</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.ActivityLogType.Hint">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.ActivityLogType.Hint">
+    <Value>The activity log type.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.ActivityLogTypeColumn">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.Comment">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.Comment">
+    <Value>Message</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOn">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CreatedOn">
+    <Value>Created On</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOnFrom">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CreatedOnFrom">
+    <Value>Created from</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOnFrom.Hint">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CreatedOnFrom.Hint">
+    <Value>The creation from date for the search.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOnTo">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CreatedOnTo">
+    <Value>Created to</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOnTo.Hint">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CreatedOnTo.Hint">
+    <Value>The creation to date for the search.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.Customer">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.Customer">
+    <Value>Customer</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CustomerEmail">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CustomerEmail">
+    <Value>Customer Email</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CustomerEmail.Hint">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.ActivityLog.Fields.CustomerEmail.Hint">
+    <Value>A customer Email.</Value>
+  </LocaleResource>
 </Language>
 '
 

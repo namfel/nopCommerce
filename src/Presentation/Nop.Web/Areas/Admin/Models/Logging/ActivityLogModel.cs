@@ -11,19 +11,19 @@ namespace Nop.Web.Areas.Admin.Models.Logging
     {
         #region Properties
 
-        [NopResourceDisplayName("Admin.Configuration.ActivityLog.ActivityLog.Fields.ActivityLogType")]
+        [NopResourceDisplayName("Admin.Configuration.ActivityLog.Fields.ActivityLogType")]
         public string ActivityLogTypeName { get; set; }
 
-        [NopResourceDisplayName("Admin.Configuration.ActivityLog.ActivityLog.Fields.Customer")]
+        [NopResourceDisplayName("Admin.Configuration.ActivityLog.Fields.Customer")]
         public int CustomerId { get; set; }
 
-        [NopResourceDisplayName("Admin.Configuration.ActivityLog.ActivityLog.Fields.Customer")]
+        [NopResourceDisplayName("Admin.Configuration.ActivityLog.Fields.CustomerEmail")]
         public string CustomerEmail { get; set; }
 
-        [NopResourceDisplayName("Admin.Configuration.ActivityLog.ActivityLog.Fields.Comment")]
+        [NopResourceDisplayName("Admin.Configuration.ActivityLog.Fields.Comment")]
         public string Comment { get; set; }
 
-        [NopResourceDisplayName("Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOn")]
+        [NopResourceDisplayName("Admin.Configuration.ActivityLog.Fields.CreatedOn")]
         public DateTime CreatedOn { get; set; }
 
         [NopResourceDisplayName("Admin.Customers.Customers.ActivityLog.IpAddress")]
