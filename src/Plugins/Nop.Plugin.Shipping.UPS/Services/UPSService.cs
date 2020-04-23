@@ -932,8 +932,8 @@ namespace Nop.Plugin.Shipping.UPS.Services
                 {
                     response.ShippingOptions.Add(shippingOption);
                 }
-                if (!string.IsNullOrEmpty(error))
-                    response.Errors.Add(error);
+                if (!string.IsNullOrEmpty(saturdayError))
+                    response.Errors.Add(saturdayError);
             }
 
             if (response.ShippingOptions.Any())
