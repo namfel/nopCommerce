@@ -338,6 +338,7 @@ namespace Nop.Services.Common
                         break;
 
                     case AttributeControlType.TextBox:
+                    case AttributeControlType.RangeTextBox:
                     case AttributeControlType.MultilineTextbox:
                         if (!StringValues.IsNullOrEmpty(attributeValues))
                             attributesXml = AddAddressAttribute(attributesXml, attribute, attributeValues.ToString().Trim());

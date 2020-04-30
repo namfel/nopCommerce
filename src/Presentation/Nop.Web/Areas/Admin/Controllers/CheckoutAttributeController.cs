@@ -179,6 +179,7 @@ namespace Nop.Web.Areas.Admin.Controllers
                             break;
                         case AttributeControlType.ReadonlyCheckboxes:
                         case AttributeControlType.TextBox:
+                        case AttributeControlType.RangeTextBox:
                         case AttributeControlType.MultilineTextbox:
                         case AttributeControlType.Datepicker:
                         case AttributeControlType.FileUpload:

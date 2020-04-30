@@ -283,6 +283,7 @@ namespace Nop.Web.Areas.Admin.Factories
                     }
                     break;
                     case AttributeControlType.TextBox:
+                    case AttributeControlType.RangeTextBox:
                     case AttributeControlType.MultilineTextbox:
                     {
                         if (!string.IsNullOrEmpty(selectedAddressAttributes))

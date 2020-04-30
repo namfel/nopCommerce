@@ -1,4 +1,4 @@
-using Nop.Core.Domain.Catalog;
+﻿using Nop.Core.Domain.Catalog;
 using Nop.Core.Domain.Orders;
 
 namespace Nop.Services.Orders
@@ -19,6 +19,7 @@ namespace Nop.Services.Orders
                 return false;
 
             if (checkoutAttribute.AttributeControlType == AttributeControlType.TextBox ||
+                checkoutAttribute.AttributeControlType == AttributeControlType.RangeTextBox ||
                 checkoutAttribute.AttributeControlType == AttributeControlType.MultilineTextbox ||
                 checkoutAttribute.AttributeControlType == AttributeControlType.Datepicker ||
                 checkoutAttribute.AttributeControlType == AttributeControlType.FileUpload)
@@ -40,6 +41,7 @@ namespace Nop.Services.Orders
 
             if (checkoutAttribute.AttributeControlType == AttributeControlType.ReadonlyCheckboxes ||
                 checkoutAttribute.AttributeControlType == AttributeControlType.TextBox ||
+                checkoutAttribute.AttributeControlType == AttributeControlType.RangeTextBox ||
                 checkoutAttribute.AttributeControlType == AttributeControlType.MultilineTextbox ||
                 checkoutAttribute.AttributeControlType == AttributeControlType.Datepicker ||
                 checkoutAttribute.AttributeControlType == AttributeControlType.FileUpload)

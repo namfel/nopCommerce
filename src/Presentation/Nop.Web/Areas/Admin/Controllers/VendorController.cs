@@ -177,6 +177,7 @@ namespace Nop.Web.Areas.Admin.Controllers
 
                         break;
                     case AttributeControlType.TextBox:
+                    case AttributeControlType.RangeTextBox:
                     case AttributeControlType.MultilineTextbox:
                         ctrlAttributes = form[controlId];
                         if (!StringValues.IsNullOrEmpty(ctrlAttributes))

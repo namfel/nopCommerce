@@ -1,4 +1,4 @@
-using Nop.Core.Domain.Catalog;
+﻿using Nop.Core.Domain.Catalog;
 
 namespace Nop.Services.Catalog
 {
@@ -18,6 +18,7 @@ namespace Nop.Services.Catalog
                 return false;
 
             if (productAttributeMapping.AttributeControlType == AttributeControlType.TextBox ||
+                productAttributeMapping.AttributeControlType == AttributeControlType.RangeTextBox ||
                 productAttributeMapping.AttributeControlType == AttributeControlType.MultilineTextbox ||
                 productAttributeMapping.AttributeControlType == AttributeControlType.Datepicker ||
                 productAttributeMapping.AttributeControlType == AttributeControlType.FileUpload)
@@ -39,6 +40,7 @@ namespace Nop.Services.Catalog
 
             if (productAttributeMapping.AttributeControlType == AttributeControlType.ReadonlyCheckboxes || 
                 productAttributeMapping.AttributeControlType == AttributeControlType.TextBox ||
+                productAttributeMapping.AttributeControlType == AttributeControlType.RangeTextBox ||
                 productAttributeMapping.AttributeControlType == AttributeControlType.MultilineTextbox ||
                 productAttributeMapping.AttributeControlType == AttributeControlType.Datepicker ||
                 productAttributeMapping.AttributeControlType == AttributeControlType.FileUpload)
@@ -59,6 +61,7 @@ namespace Nop.Services.Catalog
                 return false;
 
             if (productAttributeMapping.AttributeControlType == AttributeControlType.TextBox ||
+                productAttributeMapping.AttributeControlType == AttributeControlType.RangeTextBox ||
                 productAttributeMapping.AttributeControlType == AttributeControlType.MultilineTextbox ||
                 productAttributeMapping.AttributeControlType == AttributeControlType.FileUpload)
                 return true;

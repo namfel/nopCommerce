@@ -3,7 +3,7 @@
 @using Nop.Core.Domain.Catalog
 @using Nop.Services
 
-<script>
+    <script>
     $(document).ready(function() {
         $("#@Html.IdFor(model => model.AttributeControlTypeId)").change(toggleAttributeControlType);
 
@@ -14,6 +14,12 @@
         var selectedAttributeControlTypeId = $("#@Html.IdFor(model => model.AttributeControlTypeId)").val();
         //validation
         if (selectedAttributeControlTypeId == @(((int) AttributeControlType.TextBox).ToString())) {
+            $('#pnlValidationMinLength').show();
+            $('#pnlValidationMaxLength').show();
+            $('#pnlValidationFileMaximumSize').hide();
+            $('#pnlValidationFileAllowedExtensions').hide();
+            $('#pnlDefaultValueLocalized').show();
+        } else if (selectedAttributeControlTypeId == @(((int) AttributeControlType.RangeTextBox).ToString())) {
             $('#pnlValidationMinLength').show();
             $('#pnlValidationMaxLength').show();
             $('#pnlValidationFileMaximumSize').hide();
@@ -51,7 +57,7 @@
             $('[data-tab-name=tab-values]').hide();
         }
     }
-</script>
+    </script>
 <input asp-for="ProductId" type="hidden" />
 
 <div class="panel-body">

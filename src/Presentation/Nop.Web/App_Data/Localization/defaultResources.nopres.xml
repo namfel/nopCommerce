@@ -15309,6 +15309,9 @@
   <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.TextBox">
     <Value>Textbox</Value>
   </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.RangeTextBox">
+    <Value>RangeBox</Value>
+  </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeValueType.AssociatedToProduct">
     <Value>Associated to product</Value>
   </LocaleResource>

@@ -127,6 +127,11 @@
                                         <input name="@(controlId)" type="text" id="@(controlId)" class="form-control" />
                                     }
                                     break;
+                                case AttributeControlType.RangeTextBox:
+                                    {
+                                        <input name="@(controlId)" type="range" id="@(controlId)" class="form-control" />
+                                    }
+                                    break;
                                 case AttributeControlType.MultilineTextbox:
                                     {
                                         <textarea cols="20" id="@(controlId)" name="@(controlId)" rows="2" class="form-control"></textarea>
@@ -210,7 +215,7 @@
                                                         $("#@(controlId + "downloadurl")").html("<a href='" + responseJSON.downloadUrl + "'>@T("Common.FileUploader.DownloadUploadedFile")</a>");
                                                         $("#@(controlId + "remove")").show();
                                                     }
-                                                    
+
                                                     if (responseJSON.message) {
                                                         $('#uploadFileProductAttributeFailed-info').text((responseJSON.message).Text.replace(/<[^>]+>/g, ''));
                                                         $("#uploadFileProductAttributeFailed").click();

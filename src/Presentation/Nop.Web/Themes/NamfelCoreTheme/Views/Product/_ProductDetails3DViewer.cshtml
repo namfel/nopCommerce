@@ -1,0 +1,13 @@
+﻿@model ProductDetailsModel
+@{
+    Html.AddScriptParts(ResourceLocation.Head, "https://viewer.shapediver.com/v2/2.14.0/sdv.concat.min.js");
+    //Html.AddCssFileParts("https://viewer.shapediver.com/v2/2.14.0/sdv.css");
+
+    Html.AddScriptParts(ResourceLocation.Footer, "~/Themes/NamfelCoreTheme/Content/js/sdv-product.js");
+    //Html.AddScriptParts(ResourceLocation.Footer, "~/js/sdv-product.js");
+}
+
+<div class="gallery" style="height:500px;width:500px;">
+    <div id="sdv-container" style="max-height:500px;max-width:500px;"></div>
+</div>
+

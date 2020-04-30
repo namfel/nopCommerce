@@ -1,4 +1,4 @@
-using Nop.Core.Domain.Catalog;
+﻿using Nop.Core.Domain.Catalog;
 using Nop.Core.Domain.Common;
 
 namespace Nop.Services.Common
@@ -19,6 +19,7 @@ namespace Nop.Services.Common
                 return false;
 
             if (addressAttribute.AttributeControlType == AttributeControlType.TextBox ||
+                addressAttribute.AttributeControlType == AttributeControlType.RangeTextBox ||
                 addressAttribute.AttributeControlType == AttributeControlType.MultilineTextbox ||
                 addressAttribute.AttributeControlType == AttributeControlType.Datepicker ||
                 addressAttribute.AttributeControlType == AttributeControlType.FileUpload)

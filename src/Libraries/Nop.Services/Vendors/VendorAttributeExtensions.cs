@@ -1,4 +1,4 @@
-using Nop.Core.Domain.Catalog;
+﻿using Nop.Core.Domain.Catalog;
 using Nop.Core.Domain.Vendors;
 
 namespace Nop.Services.Vendors
@@ -19,6 +19,7 @@ namespace Nop.Services.Vendors
                 return false;
 
             if (vendorAttribute.AttributeControlType == AttributeControlType.TextBox ||
+                vendorAttribute.AttributeControlType == AttributeControlType.RangeTextBox ||
                 vendorAttribute.AttributeControlType == AttributeControlType.MultilineTextbox ||
                 vendorAttribute.AttributeControlType == AttributeControlType.Datepicker ||
                 vendorAttribute.AttributeControlType == AttributeControlType.FileUpload)

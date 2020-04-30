@@ -658,6 +658,7 @@ namespace Nop.Services.ExportImport
                     case AttributeControlType.FileUpload:
                     case AttributeControlType.MultilineTextbox:
                     case AttributeControlType.TextBox:
+                    case AttributeControlType.RangeTextBox:
                         return;
                 }
 

@@ -394,6 +394,7 @@ namespace Nop.Web.Areas.Admin.Controllers
 
                         break;
                     case AttributeControlType.TextBox:
+                    case AttributeControlType.RangeTextBox:
                     case AttributeControlType.MultilineTextbox:
                         ctrlAttributes = form[controlId];
                         if (!string.IsNullOrEmpty(ctrlAttributes))
@@ -672,6 +673,7 @@ namespace Nop.Web.Areas.Admin.Controllers
                             break;
                         case AttributeControlType.ReadonlyCheckboxes:
                         case AttributeControlType.TextBox:
+                        case AttributeControlType.RangeTextBox:
                         case AttributeControlType.MultilineTextbox:
                         case AttributeControlType.Datepicker:
                         case AttributeControlType.FileUpload:

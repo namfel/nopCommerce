@@ -802,6 +802,7 @@ namespace Nop.Services.Orders
                 if (pam.ValidationMinLength.HasValue)
                 {
                     if (pam.AttributeControlType == AttributeControlType.TextBox ||
+                        pam.AttributeControlType == AttributeControlType.RangeTextBox ||
                         pam.AttributeControlType == AttributeControlType.MultilineTextbox)
                     {
                         enteredText = _productAttributeParser.ParseValues(attributesXml, pam.Id).FirstOrDefault();
@@ -818,7 +819,7 @@ namespace Nop.Services.Orders
                 if (!pam.ValidationMaxLength.HasValue)
                     continue;
 
-                if (pam.AttributeControlType != AttributeControlType.TextBox && pam.AttributeControlType != AttributeControlType.MultilineTextbox)
+                if (pam.AttributeControlType != AttributeControlType.TextBox && pam.AttributeControlType != AttributeControlType.RangeTextBox  && pam.AttributeControlType != AttributeControlType.MultilineTextbox)
                     continue;
 
                 enteredText = _productAttributeParser.ParseValues(attributesXml, pam.Id).FirstOrDefault();
@@ -1135,6 +1136,7 @@ namespace Nop.Services.Orders
                 if (ca.ValidationMinLength.HasValue)
                 {
                     if (ca.AttributeControlType == AttributeControlType.TextBox ||
+                        ca.AttributeControlType == AttributeControlType.RangeTextBox ||
                         ca.AttributeControlType == AttributeControlType.MultilineTextbox)
                     {
                         enteredText = _checkoutAttributeParser.ParseValues(checkoutAttributesXml, ca.Id).FirstOrDefault();
@@ -1151,7 +1153,7 @@ namespace Nop.Services.Orders
                 if (!ca.ValidationMaxLength.HasValue)
                     continue;
 
-                if (ca.AttributeControlType != AttributeControlType.TextBox && ca.AttributeControlType != AttributeControlType.MultilineTextbox)
+                if (ca.AttributeControlType != AttributeControlType.TextBox && ca.AttributeControlType != AttributeControlType.RangeTextBox && ca.AttributeControlType != AttributeControlType.MultilineTextbox)
                     continue;
 
                 enteredText = _checkoutAttributeParser.ParseValues(checkoutAttributesXml, ca.Id).FirstOrDefault();

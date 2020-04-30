@@ -1,4 +1,4 @@
-using Nop.Core.Domain.Catalog;
+﻿using Nop.Core.Domain.Catalog;
 using Nop.Core.Domain.Customers;
 
 namespace Nop.Services.Customers
@@ -19,6 +19,7 @@ namespace Nop.Services.Customers
                 return false;
 
             if (customerAttribute.AttributeControlType == AttributeControlType.TextBox ||
+                customerAttribute.AttributeControlType == AttributeControlType.RangeTextBox ||
                 customerAttribute.AttributeControlType == AttributeControlType.MultilineTextbox ||
                 customerAttribute.AttributeControlType == AttributeControlType.Datepicker ||
                 customerAttribute.AttributeControlType == AttributeControlType.FileUpload)

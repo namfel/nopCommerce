@@ -1,0 +1,19 @@
+﻿@model ProductDetailsModel
+
+<div class="gallery">
+    <ul class="nav nav-pills">
+        <li><a data-toggle="pill" id="gallery-tab" href="#gallery">Gallery</a></li>
+        <li class="active"><a data-toggle="pill" id="ddd-tab" href="#ddd">3D</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="gallery" class="tab-pane fade">
+            <!--product pictures-->
+            @await Html.PartialAsync("_ProductDetailsPictures", Model)
+        </div>
+        <div id="ddd" class="tab-pane fade in active">
+            <!--product 3DViewer-->
+            @await Html.PartialAsync("_ProductDetails3DViewer", Model)
+        </div>
+    </div>
+</div>

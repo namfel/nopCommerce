@@ -235,6 +235,12 @@
             $('#pnlValidationFileMaximumSize').hide();
             $('#pnlValidationFileAllowedExtensions').hide();
             $('#pnlDefaultValueLocalized').show();
+        } else if (selectedAttributeControlTypeId == @(((int) AttributeControlType.RangeTextBox).ToString())) {
+            $('#pnlValidationMinLength').show();
+            $('#pnlValidationMaxLength').show();
+            $('#pnlValidationFileMaximumSize').hide();
+            $('#pnlValidationFileAllowedExtensions').hide();
+            $('#pnlDefaultValueLocalized').show();
         } else if (selectedAttributeControlTypeId == @(((int) AttributeControlType.MultilineTextbox).ToString())) {
             $('#pnlValidationMinLength').show();
             $('#pnlValidationMaxLength').show();

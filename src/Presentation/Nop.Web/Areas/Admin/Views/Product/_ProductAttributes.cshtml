@@ -73,6 +73,11 @@
                                 <input name="@(controlId)" type="text" id="@(controlId)" class="form-control" />
                             }
                             break;
+                        case AttributeControlType.RangeTextBox:
+                            {
+                                <input name="@(controlId)" type="range" id="@(controlId)" class="form-control" />
+                            }
+                            break;
                         case AttributeControlType.MultilineTextbox:
                             {
                                 <textarea cols="20" id="@(controlId)" name="@(controlId)" rows="2" class="form-control"></textarea>
@@ -80,13 +85,11 @@
                             break;
                         case AttributeControlType.Datepicker:
                             {
-                                <nop-date-picker 
-                                    asp-day-name="@(controlId + "_day")" 
-                                    asp-month-name="@(controlId + "_month")" 
-                                    asp-year-name="@(controlId + "_year")"
-                                    asp-begin-year="@(DateTime.Now.Year)"
-                                    asp-end-year="@(DateTime.Now.Year + catalogSettings.CountDisplayedYearsDatePicker)"
-                                />
+                                <nop-date-picker asp-day-name="@(controlId + "_day")"
+                                                 asp-month-name="@(controlId + "_month")"
+                                                 asp-year-name="@(controlId + "_year")"
+                                                 asp-begin-year="@(DateTime.Now.Year)"
+                                                 asp-end-year="@(DateTime.Now.Year + catalogSettings.CountDisplayedYearsDatePicker)" />
                             }
                             break;
                         case AttributeControlType.FileUpload:
