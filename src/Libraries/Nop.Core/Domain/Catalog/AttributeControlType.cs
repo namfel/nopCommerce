@@ -1,4 +1,4 @@
-namespace Nop.Core.Domain.Catalog
+﻿namespace Nop.Core.Domain.Catalog
 {
     /// <summary>
     /// Represents an attribute control type
@@ -24,6 +24,11 @@ namespace Nop.Core.Domain.Catalog
         /// TextBox
         /// </summary>
         TextBox = 4,
+
+        /// <summary>
+        /// Range TextBox
+        /// </summary>
+        RangeTextBox = 5,
 
         /// <summary>
         /// Multiline textbox
